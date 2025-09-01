@@ -1,0 +1,40 @@
+# Ignore everything
+*
+
+# Allow files and directories
+!Dockerfile
+!docker-compose.yml
+!*.php
+!*.css
+!*.js
+!*.png
+!*.jpg
+!*.jpeg
+!*.gif
+!*.svg
+!*.woff
+!*.woff2
+!*.ttf
+!*.eot
+!*.json
+!*.txt
+!*.md
+
+# Ignore specific directories
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Ignore environment files (we'll use Render's environment variables)
+.env
+.env.*
+!.env.example
+
+# Ignore development dependencies
+node_modules/
+vendor/
+
+# Ignore system files
+.DS_Store
+Thumbs.db

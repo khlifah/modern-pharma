@@ -1,0 +1,4 @@
+<?php require_once __DIR__ . '/auth.php'; $title='الحركة العامة للمنشأة'; ?>
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?= $title ?> - موردن</title>
+<style>*{box-sizing:border-box}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#f5f8fc;color:#1f2937}.header{display:flex;justify-content:space-between;align-items:center;background:#0c2140;color:#fff;padding:12px 16px}a{color:#64ffda;text-decoration:none}.wrap{padding:18px}.card{background:#fff;border:1px solid #dfe7f5;border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(0,0,0,.05)}.muted{color:#6b7280}</style></head>
+<body><div class="header"><div><?= htmlspecialchars($title) ?></div><nav><a href="./dashboard.php">الرجوع</a></nav></div><div class="wrap"><div class="card"><h2><?= htmlspecialchars($title) ?></h2><p class="muted">قريبًا.</p></div></div></body></html>

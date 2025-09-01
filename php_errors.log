@@ -1,0 +1,31 @@
+[01-Sep-2025 08:06:55 Asia/Riyadh] PHP Warning:  Undefined variable $_env in C:\xampp\htdocs\موردن2\config.php on line 24
+[01-Sep-2025 08:06:55 Asia/Riyadh] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in C:\xampp\htdocs\موردن2\config.php:24
+Stack trace:
+#0 C:\xampp\htdocs\موردن2\auth.php(6): require_once()
+#1 C:\xampp\htdocs\موردن2\dashboard.php(4): require_once('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\موردن2\config.php on line 24
+[01-Sep-2025 08:10:41 Asia/Riyadh] PHP Warning:  Undefined variable $_env in C:\xampp\htdocs\موردن2\config.php on line 24
+[01-Sep-2025 08:10:41 Asia/Riyadh] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in C:\xampp\htdocs\موردن2\config.php:24
+Stack trace:
+#0 C:\xampp\htdocs\موردن2\test_mail.php(6): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\موردن2\config.php on line 24
+[01-Sep-2025 08:10:42 Asia/Riyadh] PHP Warning:  Undefined variable $_env in C:\xampp\htdocs\موردن2\config.php on line 24
+[01-Sep-2025 08:10:42 Asia/Riyadh] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in C:\xampp\htdocs\موردن2\config.php:24
+Stack trace:
+#0 C:\xampp\htdocs\موردن2\test_mail.php(6): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\موردن2\config.php on line 24
+[01-Sep-2025 08:10:42 Asia/Riyadh] PHP Warning:  Undefined variable $_env in C:\xampp\htdocs\موردن2\config.php on line 24
+[01-Sep-2025 08:10:42 Asia/Riyadh] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in C:\xampp\htdocs\موردن2\config.php:24
+Stack trace:
+#0 C:\xampp\htdocs\موردن2\test_mail.php(6): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\موردن2\config.php on line 24
+[01-Sep-2025 08:10:42 Asia/Riyadh] PHP Warning:  Undefined variable $_env in C:\xampp\htdocs\موردن2\config.php on line 24
+[01-Sep-2025 08:10:42 Asia/Riyadh] PHP Fatal error:  Uncaught TypeError: array_key_exists(): Argument #2 ($array) must be of type array, null given in C:\xampp\htdocs\موردن2\config.php:24
+Stack trace:
+#0 C:\xampp\htdocs\موردن2\test_mail.php(6): require()
+#1 {main}
+  thrown in C:\xampp\htdocs\موردن2\config.php on line 24

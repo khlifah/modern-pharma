@@ -1,0 +1,11 @@
+
+/* Minimal toast styles */
+#toasts-container{position:fixed;top:16px;right:16px;z-index:9999;display:flex;flex-direction:column;gap:10px}
+.toast{min-width:280px;max-width:360px;padding:12px 14px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,.12);color:#111;background:#fff;border-left:6px solid #888;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,'Helvetica Neue',Arial}
+.toast .title{font-weight:700;margin-bottom:4px}
+.toast.info{border-color:#3b82f6}
+.toast.success{border-color:#10b981}
+.toast.warning{border-color:#f59e0b}
+.toast.error{border-color:#ef4444}
+.toast .meta{font-size:.8rem;opacity:.7;margin-top:6px}
+.toast .close{float:left;cursor:pointer;font-weight:bold;margin-right:6px}

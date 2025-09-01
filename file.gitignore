@@ -1,0 +1,23 @@
+# Dependency directories
+/vendor/
+
+# Environment files
+.env
+*.env
+
+# Log files
+*.log
+php_errors.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Local configuration
+config.local.php
